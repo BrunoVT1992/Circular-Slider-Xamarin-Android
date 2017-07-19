@@ -3,6 +3,6 @@ A circular slider / seekbar for Xamarin Android. This is a small library that wo
 
 ##What the control looks like and what it can do
 
-![CircularSlider demo](http://imgur.com/gCzW5LB.gif)
+![CircularSlider demo](http://i.imgur.com/gn8AR99.gif)
 
 
