@@ -482,7 +482,7 @@ namespace CircularSliderDroid
             if (!Clockwise)
                 x = -x;
 
-            //convert to arc Angle
+            // Convert to arc Angle
             var angle = Math.ToDegrees(Math.Atan2(y, x) + (Math.Pi / 2));
 
             angle -= 90;
