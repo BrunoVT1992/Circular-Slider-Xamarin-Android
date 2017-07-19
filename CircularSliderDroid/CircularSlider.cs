@@ -283,6 +283,22 @@ namespace CircularSliderDroid
         }
 
         /// <summary>
+        /// This indicates if the user can interact with the control or not
+        /// </summary>
+        public override bool Enabled
+        {
+            get
+            {
+                return base.Enabled;
+            }
+            set
+            {
+                base.Enabled = value;
+                OnPropertyChanged();
+            }
+        }
+
+        /// <summary>
         /// Triggered when one of the custom properties is changed.
         /// </summary>
         public event PropertyChangedEventHandler PropertyChanged;
@@ -342,7 +358,7 @@ namespace CircularSliderDroid
 
             UpdateThumbPosition();
 
-            // Don't use the exact radius, makes interaction too tricky
+            // Don't use the exact radius but include TouchCorrection or else this makes interaction too tricky
             if (Thumb != null)
             {
                 _touchInsideIgnoreRadius = _arcRadius - (Math.Min(Thumb.Width, Thumb.Height) + TouchCorrection);
@@ -466,7 +482,7 @@ namespace CircularSliderDroid
             if (!Clockwise)
                 x = -x;
 
-            // convert to arc Angle
+            //convert to arc Angle
             var angle = Math.ToDegrees(Math.Atan2(y, x) + (Math.Pi / 2));
 
             angle -= 90;
