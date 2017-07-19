@@ -22,7 +22,6 @@ namespace CircularSliderDroid.Sample
             _slider.Color = Color.Red;
             _slider.ProgressColor = Color.Yellow;
             _slider.SetThumbResourceId(Resource.Drawable.circle);
-
             _slider.Maximum = 50;
             _slider.Progress = 20;
 
@@ -31,12 +30,6 @@ namespace CircularSliderDroid.Sample
 
         async Task Demo()
         {
-            await Task.Delay(5000);
-
-            Android.Widget.Toast.MakeText(this, "Start", Android.Widget.ToastLength.Long).Show();
-
-            await Task.Delay(1000);
-
             await AnimateProgress();
 
             await Task.Delay(500);
