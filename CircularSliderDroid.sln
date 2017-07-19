@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularSliderDroid", "CircularSliderDroid\CircularSliderDroid.csproj", "{489213EA-5867-4025-83DF-ADDB134EDADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularSliderDroid.Sample", "CircularSliderDroid.Sample\CircularSliderDroid.Sample.csproj", "{D96E73FB-03B1-49E9-90AB-8AEBB79ED879}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{489213EA-5867-4025-83DF-ADDB134EDADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489213EA-5867-4025-83DF-ADDB134EDADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489213EA-5867-4025-83DF-ADDB134EDADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489213EA-5867-4025-83DF-ADDB134EDADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D96E73FB-03B1-49E9-90AB-8AEBB79ED879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96E73FB-03B1-49E9-90AB-8AEBB79ED879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96E73FB-03B1-49E9-90AB-8AEBB79ED879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96E73FB-03B1-49E9-90AB-8AEBB79ED879}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
